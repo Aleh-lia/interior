@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-header></app-header>
-    <section class="banner-blog center indent-from-left">
+    <section class="banner-blog center_1920 indent-from-left">
       <img class="banner-blog__photo" src="../assets/bannerBlog.jpg" alt="" />
       <div class="banner-blog__info">
         <h1 class="banner-blog__title">Articles & News</h1>
@@ -55,12 +55,10 @@ h3,
 h4 {
   font-family: "DM Serif Display", serif;
 }
-
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+.center_1920 {
+  padding-left: calc(50% - 960px);
+  padding-right: calc(50% - 960px);
 }
-
 .banner-blog {
   width: 1920px;
   height: 356px;
