@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    background: #ffffff;
+}
+
+link {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "DM Serif Display", serif;
+}
+
+.top {
+    overflow: hidden;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.banner-blog {
+    width: 1920px;
+    height: 356px;
+    margin-bottom: 200px;
+    &__info {
+        display: flex;
+        padding: 36px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background: #fff;
+        border-radius: 37px 37px 0 0;
+        position: relative;
+        top: -180px;
+        left: 708px;
+        max-width: 503px;
+        }
+    &__title {
+        color: #292f36;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 62.5px */
+        width: 347px;
+    }
+    &__text {
+        color: #4d5053;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 33px */
+        letter-spacing: 0.22px;
+    }
+}
+
+
+.post {
+    margin-bottom: 150px;
+    &__title {
+        color: #292f36;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%; /* 62.5px */
+        letter-spacing: 1px;
+        margin-bottom: 27px;
+    }
+    &__item {
+        display: flex;
+        gap: 65px;
+        &__bg {
+            padding: 22px;
+            border-radius: 62px;
+            border: 1px solid #e7e7e7;
+            box-shadow: 0 10px 30px 0 rgba(255, 255, 255, 0.25);
+        }
+        &__photo {
+            width: 569px;
+            height: 478px;
+            flex-shrink: 0;
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            width: 469px;
+            margin-top: 51px;
+            &__title {
+                color: #292f36;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 125%; /* 31.25px */
+                letter-spacing: 0.5px;
+            }
+            &__text {
+                color: #4d5053;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 33px */
+                letter-spacing: 0.22px;
+            }
+            &__link {
+                margin-top: 19px;
+                width: 489px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &__link__date {
+                color: #4d5053;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                letter-spacing: 0.16px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
